@@ -8,6 +8,7 @@ namespace Vsite.CSharp
         // TODO: U metodi SamVrag() napisati naredbu kojom se jedan od članova niza mijenja u neki drugi tekst. Pokrenuti program i usporediti sadržaj nakon poziva metode.
         public static void SamVrag(string[] božjeZapovjedi)
         {
+            božjeZapovjedi[2] = "ne radi";
         }
 
         static void Main(string[] args)
